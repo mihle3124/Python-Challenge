@@ -1,0 +1,10 @@
+In this PyBank analysis, we are evaluating the budget_data.csv file. In assessing the file, we are able to depict the Total Months, Total Profit, Average Change of Profit, Greatest Increase in Profits and Greatest Decrease in Profits.
+To find the Total Months, we count the number of rows in the file while skipping the header. Total Profit is calculated by summing all Profit/Losses. To get the Average Change, we look into the difference between the previous change of the profit to the current change of the profit and divide that number by the number of changes. The Greatest Increase/Decrease is established by comparing the changes of profit in all rows.
+As results we have the following:
+	Financial Analysis
+---------------------------------
+Total Months: 86
+Total: $22564198
+Average Change: $-8311.11
+Greatest Increase in Profits: Aug-16 ($1862002)
+Greatest Increase in Profits: Feb-14 ($-1825558)
